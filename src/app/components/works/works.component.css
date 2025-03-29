@@ -1,0 +1,53 @@
+
+/* MIS TRABAJOS */
+#works {
+    width: 100%;
+    background-color: #c3c5c7;
+}
+
+#works img {
+    width: 100% !important;
+    height: 250px; /* Tamaño fijo para todas las imágenes */
+    object-fit: cover; /* Asegura que la imagen no se deforme */
+    transition: transform 0.5s; /* Se añadió la unidad de tiempo */
+}
+
+#works img:hover {
+    transform: scale(1.02);
+}
+
+#works h4 {
+    color: #194b6e !important;
+}
+
+.container {
+    padding-top: 250px !important;
+    padding-bottom: 300px !important;
+}
+
+#works p {
+    margin-top: 15px; /* Añadido para separarlo un poco más de la imagen */
+    font-size: 1.2rem;
+    color: #35557e; /* Color de texto más atractivo */
+    font-weight: 600; /* Negrita para el texto */
+    letter-spacing: 1px; /* Un poco de espaciado entre letras */
+    text-transform: uppercase; /* Texto en mayúsculas para un estilo más moderno */
+    padding: 10px;
+    background-color: #fbfbff; /* Fondo blanco para destacar el texto */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    transition: all 0.3s ease; /* Transición suave para los efectos */
+}
+
+#works p:hover {
+    background-color: #35557e71; /* Cambio de fondo al pasar el cursor */
+    color: #dddde6; /* Color de texto blanco cuando está en hover */
+}
+
+a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+}
+
+a:hover {
+    text-decoration: none; /* Asegura que no haya subrayado al pasar el cursor */
+}

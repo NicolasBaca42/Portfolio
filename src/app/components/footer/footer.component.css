@@ -1,0 +1,35 @@
+
+footer {
+    position: fixed; /* Hace que el footer se quede fijo */
+    bottom: 0; /* Lo coloca en la parte inferior */
+    width: 100%; /* Asegura que ocupe todo el ancho de la página */
+    background-color: #194b6e !important;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    z-index: 1000; /* Asegura que esté encima de otros elementos si es necesario */
+}
+
+footer a {
+    color: #f8f9fa; /* Color del enlace */
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s ease; /* Transición suave para todos los cambios */
+}
+
+footer a:hover {
+    font-size: 19px;
+    color: #1e90ff; /* Suaviza el color cuando se pasa el ratón */
+    transform: translateY(-5px); /* Hace que el enlace se mueva ligeramente hacia arriba */
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Agrega un pequeño sombreado al texto */
+}
+
+/* También se puede añadir un cambio de opacidad para un efecto adicional */
+footer a:hover {
+    opacity: 0.8; /* Reduce ligeramente la opacidad para darle un toque más dinámico */
+}
+
+/* Para que no se superponga al contenido de la página */
+body {
+    margin-bottom: 80px; /* Esto evita que el contenido quede cubierto por el footer */
+}

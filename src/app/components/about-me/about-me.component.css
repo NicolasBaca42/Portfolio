@@ -1,0 +1,102 @@
+/* Estilo general para la sección Acerca de Mí */
+#about {
+    padding: 80px 0;  /* Espacio arriba y abajo */
+    margin-top: 60px; /* Asegura que no se solape con el header */
+}
+
+/* Contenedor de la sección */
+#about .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Estilos de texto */
+#about h4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 1.125rem; /* Tamaño de texto más grande */
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+#about .text-center {
+    text-align: center;
+}
+
+/* Estilo de la imagen de perfil */
+#about .rounded-circle {
+    width: 200px; /* Ajustamos el tamaño de la imagen */
+    height: 200px; /* Aseguramos que el alto sea igual al ancho */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+    border-radius: 50%; /* Hace la imagen redonda */
+    transition: transform 0.3s ease-in-out; /* Animación al pasar el ratón */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    margin: auto auto; /* Centra la imagen */
+    display: block; /* Asegura que la imagen se centre */
+}
+
+/* Efecto de animación al pasar el ratón sobre la imagen */
+#about .rounded-circle:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen ligeramente */
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para los textos dentro de columnas */
+#about .col-md-6 {
+    margin-bottom: 30px;
+}
+
+#about .col-md-6 p {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Animación de aparición de texto */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Animación de aparición gradual */
+#about .col-md-6 {
+    animation: fadeInUp 2s ease-out forwards;
+}
+
+/* Espaciado adicional entre las secciones */
+#about .row {
+    margin-bottom: 30px;
+}
+
+/* Mejoras en la vista móvil */
+@media (max-width: 768px) {
+    #about .col-md-6 {
+        text-align: center;
+    }
+
+    #about h4 {
+        font-size: 2rem;
+    }
+
+    #about p {
+        font-size: 1rem;
+    }
+
+    #about .rounded-circle {
+        max-width: 200px; /* Ajusta el tamaño de la imagen para pantallas más pequeñas */
+    }
+}

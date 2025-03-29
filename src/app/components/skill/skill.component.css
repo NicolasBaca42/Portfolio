@@ -1,0 +1,43 @@
+/*MIS HABILIDADES*/
+#skill{
+    width: 50%;
+    margin: auto auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto auto;
+}
+
+.icono {
+    width: 8rem !important;
+    height: 8rem !important;
+}
+
+#skill .col-md i{
+    font-size: 8rem !important;
+}
+
+#skill .col-md .shadow{
+    text-align: center;
+    transition: transform .5;
+}
+
+#skill .col-md img {
+    width: 8rem !important;
+    height: 8rem !important;
+}
+
+#skill .col-md .shadow {
+    text-align: center;
+    transition: transform .5s;
+}
+
+#skill .col-md .shadow:hover{
+    transform: translateY(-.5rem);
+}
+
+
+.container {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}

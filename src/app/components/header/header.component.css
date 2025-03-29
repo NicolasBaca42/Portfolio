@@ -1,0 +1,74 @@
+
+nav.navbar {
+    background-color: #194b6e !important; 
+    z-index: 1000 !important;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    padding: 10px 0; 
+}
+.navbar-brand i {
+    color: #a1683c; 
+    transition: color 0.3s ease; 
+}
+
+.navbar-brand:hover i {
+    color: #704d29; 
+}
+
+
+.nav-link {
+    color: white !important; 
+}
+
+.nav-link:hover {
+    color: #f8f9fa !important;
+    padding-left: 5px; 
+    transition: padding 0.3s ease; 
+}
+
+
+.dropdown-item {
+    color: #1d4b6e !important; 
+    transition: color 0.3s ease; 
+}
+
+.dropdown-item:hover {
+    background-color: #1d4b6e !important; 
+    color: white !important; 
+    padding-left: 14px;
+    border-radius: 10px !important;
+}
+
+
+.icono {
+    width: 1rem !important;
+    color: white !important; 
+}
+
+
+.container a {
+    text-decoration: none;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px !important;
+    margin-left: 20px;
+    color: white !important;
+    z-index: 100;
+    transition: font-size 0.3s ease; 
+}
+
+.navbar-brand:hover {
+    margin-left: 20px;
+    font-size: 31px !important;
+    cursor: pointer;
+    color: #f8f9fa !important;
+}
+
+@media (max-width: 767px) {
+    .offcanvas-end {
+        width: 200px; 
+    }
+}
